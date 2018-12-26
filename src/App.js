@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Brewery from './Brewery';
+
+// https://api.openbrewerydb.org/breweries?by_city=austin&per_page=50
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Brewery Near Me</h1>
+        <Brewery />
       </div>
     );
   }
